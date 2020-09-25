@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quanlycustomer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>quanlycustomer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="quanlycustomer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quanlycustomer:war exploded" />
+    </root>
+  </artifact>
+</component>
